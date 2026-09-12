@@ -1,5 +1,5 @@
 // import java.io.FileNotFoundException;
-import java.io.FileReader;
+// import java.io.FileReader;
 import java.util.Scanner;
 
 public class PredefinedException {
@@ -10,11 +10,11 @@ public class PredefinedException {
         try {
             int[] arr = { 1, 2, 3, 4 };
             int i, b;
-            int c = 1/0;
-            FileReader fr = new FileReader("abc.txt");
+            // int c = 1/0;
+            // FileReader fr = new FileReader("abc.txt");
             i = sc.nextInt();
             b = sc.nextInt();
-            System.out.println(arr[1]);
+            System.out.println(arr[1]/i);
             System.out.println(arr[1] / b);
         }
         catch (ArithmeticException e) {
