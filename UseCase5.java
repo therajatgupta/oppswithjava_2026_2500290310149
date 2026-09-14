@@ -4,7 +4,7 @@ public class UseCase5 {
  
         Thread t1 = new Thread(counter, "Counter-1");
         Thread t2 = new Thread(counter, "Counter-2");
-
+        t2.setPriority(10);
         t1.start();
 
         t2.start();
