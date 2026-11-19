@@ -14,6 +14,7 @@ public class LibraryApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
         SpringApplication.run(LibraryApplication.class, args);
+        
     }
 
     @Override
