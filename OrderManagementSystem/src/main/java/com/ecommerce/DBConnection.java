@@ -15,7 +15,7 @@ public class DBConnection {
         "root";
 
     private static final String PASSWORD =
-        "Rajat@2006";
+        "It's Private 🔒";
 
     // Method to establish connection
     public static Connection getConnection() {
